@@ -1,1 +1,20 @@
 
+# Program to calculate Compound Interest
+
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the annual interest rate (%): "))
+time = float(input("Enter the time period (in years): "))
+n = int(input("Enter compounding frequency per year: "))
+
+# Calculate compound amount
+amount = principal * (1 + rate / (100 * n)) ** (n * time)
+
+# Calculate compound interest
+compound_interest = amount - principal
+
+# Display results
+print("\n--- Compound Interest Calculation ---")
+print("Principal Amount:", principal)
+print("Total Amount:", round(amount, 2))
+print("Compound Interest:", round(compound_interest, 2))
+
