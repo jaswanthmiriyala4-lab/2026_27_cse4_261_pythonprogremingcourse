@@ -1,1 +1,9 @@
 
+# Input a number
+num = int(input("Enter a number: "))
+
+# Calculate square
+square = num * num
+
+# Display result
+print("Square =", square)
