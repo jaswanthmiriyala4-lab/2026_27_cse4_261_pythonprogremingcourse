@@ -1,1 +1,24 @@
 
+# Program to demonstrate operator precedence and associativity
+
+a = 10
+b = 5
+c = 2
+
+# Operator precedence
+result1 = a + b * c
+print("Operator precedence (10 + 5 * 2):", result1)
+
+# Using parentheses
+result2 = (a + b) * c
+print("Using parentheses ((10 + 5) * 2):", result2)
+
+# Left-to-right associativity
+result3 = 20 - 5 - 3
+print("Left-to-right associativity (20 - 5 - 3):", result3)
+
+# Right-to-left associativity
+result4 = 2 ** 3 ** 2
+print("Right-to-left associativity (2 ** 3 ** 2):", result4)
+
+
