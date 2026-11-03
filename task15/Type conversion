@@ -1,1 +1,38 @@
 
+# Demonstration of Type Conversion
+
+# Integer to float
+a = 10
+b = float(a)
+print("Integer to Float:")
+print("Original value:", a)
+print("Converted value:", b)
+
+# Float to integer
+x = 15.75
+y = int(x)
+print("\nFloat to Integer:")
+print("Original value:", x)
+print("Converted value:", y)
+
+# Integer to string
+num = 100
+s = str(num)
+print("\nInteger to String:")
+print("Original value:", num)
+print("Converted value:", s)
+
+# String to integer
+p = "50"
+q = int(p)
+print("\nString to Integer:")
+print("Original value:", p)
+print("Converted value:", q)
+
+# String to float
+r = "25.5"
+z = float(r)
+print("\nString to Float:")
+print("Original value:", r)
+print("Converted value:", z)
+
